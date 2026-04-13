@@ -1,6 +1,8 @@
 # UrbanNest Analytics – Dynamic Rent Prediction Engine
 
-> **Live Streamlit App (Hugging Face Spaces):** _Deploy to HF Spaces and paste your URL here_
+> **🚀 Live Streamlit App:** [https://saikrishna888-urbannest-rent-predictor.hf.space](https://saikrishna888-urbannest-rent-predictor.hf.space)
+>
+> **HF Space:** [huggingface.co/spaces/SaiKrishna888/UrbanNest-Rent-Predictor](https://huggingface.co/spaces/SaiKrishna888/UrbanNest-Rent-Predictor)
 
 A PropTech ML pipeline that predicts monthly rent across **Mumbai, Pune, Delhi, and Hisar** using a Random Forest Regressor optimised with Grid Search, Random Search, and Bayesian Optimization (Optuna), tracked via trackio, served via Streamlit, and containerised with Docker.
 
@@ -25,10 +27,11 @@ Assignment_4/
 │   ├── trials_vs_error.png          ← Convergence plot (all 3 methods)
 │   └── optuna_hyperparameter_space.png  ← Bayesian space exploration
 └── screenshots/
-    ├── trackio_dashboard.png        ← trackio UI screenshot
-    ├── docker_build.png             ← docker build output
+    ├── trackio_dashboard_2.png      ← trackio dashboard (3 named runs)
+    ├── docker_build_1.png           ← docker build output (part 1)
+    ├── docker_build_2.png           ← docker build output (part 2)
     ├── docker_ps.png                ← docker ps output
-    └── streamlit_working.png        ← app running in browser
+    └── streamlit_working_1.png      ← app running in browser
 ```
 
 ---
